@@ -1,0 +1,251 @@
+.apicheckcontactformMessage {
+  background: #ff000091;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #222;
+}
+
+#search {
+  width: 100%; /* Make sure it's set to 100% width */
+  box-sizing: border-box; /* Include padding and borders within width */
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+#search:focus {
+  border-color: #6094db; /* Gives a highlighted effect when focused */
+}
+
+#results {
+  max-height: 300px;
+  overflow-y: auto;
+  box-sizing: border-box; /* Include padding and borders within width */
+  border: 1px solid #e0e0e0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Ensuring full width */
+}
+
+.group-heading {
+  background-color: #f7f7f7; /* Light gray background to cover content behind */
+  color: #333;
+  font-weight: bold;
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+  top: 0; /* Sticks to the top */
+  z-index: 2; /* Ensure it's above other items */
+  padding: 5px 10px; /* Some padding for appearance */
+  border-bottom: 1px solid #e0e0e0; /* subtle separator */
+}
+
+.suggestion-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd; /* This will add a light grey line below each item */
+}
+
+/* To ensure the last item does not have a bottom border */
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover {
+  background-color: #e6e6e6;
+}
+
+.highlight {
+  background-color: #ffeb3b !important; /* Yellow background for the highlighted text */
+  font-weight: bold;
+}
+
+.spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 3px solid #6094db;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.select-selected {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-left: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.select-items {
+  padding: 0px;
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  z-index: 99;
+  left: 0px !important;
+  margin: 0px !important;
+  right: 0;
+  max-height: 250px;
+}
+
+/* Show the dropdown container */
+.select-items.show {
+  display: block;
+}
+
+.select-items li {
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+}
+
+.select-items li:hover {
+  background-color: #ddd;
+}
+
+.flag-icon {
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.custom-select .select-items {
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.custom-select .select-items::-webkit-scrollbar {
+  background: white;
+  width: 8px;
+}
+
+.custom-select .select-items::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.custom-select .select-items::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+}
+
+.form-group input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+.inline-group {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.inline-group > div {
+  flex: 1;
+}
+
+.inline-group label,
+.inline-group input[type="text"] {
+  display: block;
+  width: 100%;
+}
+.inline-group input[id="postalcode_field"] {
+  text-transform: uppercase;
+}
+
+.form-container {
+  box-sizing: border-box; /* Include padding and borders in the element's total width */
+  max-width: 600px; /* Adjust this as per your preference */
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+}
+
+.inline-group > div {
+  margin-right: 20px;
+  flex: 1; /* to ensure equal distribution of space */
+}
+
+.inline-group > div {
+  flex-shrink: 0; /* Prevents the flex items from shrinking */
+}
+
+#clearSearchButton {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+#addressFields {
+  display: none;
+}
+
+input[readonly] {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+.noaddressfoundmessage {
+  display: none;
+  padding: 10px;
+  background-color: #f44336; /* Red background color */
+  color: white !important; /* White text color */
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 600px) {
+  .inline-group {
+    flex-direction: column;
+  }
+
+  .inline-group > div {
+    margin-right: 0; /* remove the margin-right */
+    width: 100%; /* Make the fields take up the full width */
+  }
+
+  .form-container {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+
+  .form-group input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

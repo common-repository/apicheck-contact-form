@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ApiCheck Adres Aanvulling en Validatie voor Contact Form "
+"7\n"
+"POT-Creation-Date: 2024-01-14 15:39+0100\n"
+"PO-Revision-Date: 2024-01-14 15:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: apicheck-contactform.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: apicheck-contactform.php:42
+msgid "Nederland"
+msgstr "The Netherlands"
+
+#: apicheck-contactform.php:43
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: apicheck-contactform.php:44
+msgid "België"
+msgstr "Belgium"
+
+#: apicheck-contactform.php:45
+msgid "Frankrijk"
+msgstr "France"
+
+#: apicheck-contactform.php:46
+msgid "Duitsland"
+msgstr "Germany"
+
+#: apicheck-contactform.php:47
+msgid "Tsjechië"
+msgstr "Czech Republic"
+
+#: apicheck-contactform.php:48
+msgid "Finland"
+msgstr "Finland"
+
+#: apicheck-contactform.php:49
+msgid "Italië"
+msgstr "Italy"
+
+#: apicheck-contactform.php:50
+msgid "Noorwegen"
+msgstr "Norway"
+
+#: apicheck-contactform.php:51
+msgid "Polen"
+msgstr "Poland"
+
+#: apicheck-contactform.php:52
+msgid "Portugal"
+msgstr "Portugal"
+
+#: apicheck-contactform.php:53
+msgid "Roemenië"
+msgstr "Romania"
+
+#: apicheck-contactform.php:54
+msgid "Spanje"
+msgstr "Spain"
+
+#: apicheck-contactform.php:55
+msgid "Zwitserland"
+msgstr "Switzerland"
+
+#: apicheck-contactform.php:56
+msgid "Oostenrijk"
+msgstr "Austria"
+
+#: apicheck-contactform.php:57
+msgid "Denemarken"
+msgstr "Denmark"
+
+#: apicheck-contactform.php:58
+msgid "Verenigd Koninkrijk"
+msgstr "United Kingdom"
+
+#: apicheck-contactform.php:59
+msgid "Zweden"
+msgstr "Sweden"
+
+#: includes/back/apicheckcontactform_options_page.php:50
+msgid "ApiCheck voor Contact Form 7"
+msgstr "ApiCheck for Contact Form 7"
+
+#: includes/back/apicheckcontactform_options_page.php:53
+msgid ""
+"Met onze adres Validatie API weet je 100% zeker dat je klanten het juiste "
+"adres en e-mail adres invullen."
+msgstr ""
+"With our address Validation API you can be 100% sure that your customers "
+"enter the correct address and email address."
+
+#: includes/back/apicheckcontactform_options_page.php:55
+msgid ""
+"Op basis van het geselecteerde land maken wij het de klant zo makkelijk "
+"mogelijk gemaakt om een adres in te voeren."
+msgstr ""
+"Based on the selected country, we make it as easy as possible for the "
+"customer to enter an address."
+
+#: includes/back/apicheckcontactform_options_page.php:57
+msgid ""
+"Voor Nederland is een postcode, huisnummer en eventueel toevoeging al "
+"voldoende voor een volledig, en compleet adres."
+msgstr ""
+"For the Netherlands, a postal code, house number and possibly addition are "
+"sufficient for a full and complete address."
+
+#: includes/back/apicheckcontactform_options_page.php:62
+msgid "De instellingen zijn opgeslagen."
+msgstr "Settings have been saved."
+
+#: includes/back/apicheckcontactform_options_page.php:68
+msgid "Algemeen"
+msgstr "General"
+
+#: includes/back/apicheckcontactform_options_page.php:70
+msgid "Er zijn geen resultaten gevonden. Probeer een andere zoekopdracht"
+msgstr "No results were found. Try another search"
+
+#: includes/back/apicheckcontactform_options_page.php:72
+msgid ""
+"Via het <a target=\"_blank\" href=\"https://app.apicheck.nl/dashboard/"
+"\">Dashboard</a> is het mogelijk om een API-key aan te maken. Deze key is in "
+"het onderstaand formulier nodig."
+msgstr ""
+"It is possible to create an API key via the <a target=“_blank” href=“https://"
+"app.apicheck.nl/dashboard/“>Dashboard</a>. This key is required in the form "
+"below."
+
+#: includes/back/apicheckcontactform_options_page.php:74
+msgid ""
+"Meer hulp nodig? Neem <a target=\"_blank\" href=\"https://apicheck.nl/faqs/"
+"\">contact</a> op, of bekijk de WordPress plugin <a target=\"_blank\" "
+"href=\"https://apicheck.nl/contact-form-plugin-documentatie/\">documentatie</"
+"a>. "
+msgstr ""
+"Need more help? Get <a target=“_blank” href=“https://apicheck.nl/"
+"faqs/“>contact</a>, or check out the WordPress plugin <a target=“_blank” "
+"href=“https://apicheck .nl/contact-form-plugin-"
+"documentation/“>documentation</a>. "
+
+#: includes/back/apicheckcontactform_options_page.php:77
+msgid "API-key"
+msgstr "API-key"
+
+#: includes/back/apicheckcontactform_options_page.php:79
+msgid "Vul je ApiCheck api-key in"
+msgstr "Enter your ApiCheck API-key"
+
+#: includes/back/apicheckcontactform_options_page.php:92
+msgid "Schakel adres aanvulling en validatie in"
+msgstr "Enable address completion and validation"
+
+#: includes/back/apicheckcontactform_options_page.php:96
+msgid "Valideer ook huisnummer-toevoeging"
+msgstr "Validate house number addition"
+
+#: includes/back/apicheckcontactform_options_page.php:101
+msgid "Selecteer de landen die je wil ondersteunen"
+msgstr "Select the countries you want to support"
+
+#: includes/back/apicheckcontactform_options_page.php:118
+msgid "Alle landen inschakelen"
+msgstr "Enable all countries"
+
+#: includes/back/apicheckcontactform_options_page.php:128
+msgid "E-mail validatie"
+msgstr "Email validation"
+
+#: includes/back/apicheckcontactform_options_page.php:129
+msgid "Controleer op fouten in het ingevoerde email adres."
+msgstr "Check for errors in the entered email address."
+
+#: includes/back/apicheckcontactform_options_page.php:129
+msgid ""
+"Hiermee voorkom je dat belangrijke order-updates niet bij de klant terecht "
+"komen."
+msgstr "This prevents important order updates from reaching the customer."
+
+#: includes/back/apicheckcontactform_options_page.php:131
+msgid "Schakel e-mail validatie in"
+msgstr "Enable email validation"
+
+#: includes/display/apicheckcontactform_display.php:67
+msgid "Selecteer een land"
+msgstr "Select a country"
+
+#: includes/display/apicheckcontactform_display.php:154
+msgid "ApiCheck Adres"
+msgstr "ApiCheck Address"
+
+#: includes/display/apicheckcontactform_display.php:168
+#: includes/display/apicheckcontactform_display.php:171
+msgid "Field type"
+msgstr "Field type"
+
+#: includes/display/apicheckcontactform_display.php:172
+msgid "Required field"
+msgstr "Required field"
+
+#: includes/display/apicheckcontactform_display.php:177
+msgid "Name"
+msgstr "Name"
+
+#: includes/display/apicheckcontactform_display.php:182
+msgid "Id attribute"
+msgstr "Id attribute"
+
+#: includes/display/apicheckcontactform_display.php:186
+msgid "Class attribute"
+msgstr "Class attribute"
+
+#: includes/display/apicheckcontactform_display.php:197
+msgid "Insert Tag"
+msgstr "Insert Tag"
+
+#: includes/display/apicheckcontactform_display.php:200
+#, php-format
+msgid ""
+"To use the value input through this field in a mail field, you need to "
+"insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr ""
+"To use the value input through this field in a mail field, you need to "
+"insert the corresponding mail-tag (%s) into the field on the Mail tab."
+
+#. Plugin Name of the plugin/theme
+msgid "ApiCheck Adres Aanvulling en Validatie voor Contact Form 7"
+msgstr "ApiCheck Address Completion and Validation for Contact Form 7"
+
+#. Plugin URI of the plugin/theme
+msgid "https://apicheck.nl/wordpress-contact-form-plugin/"
+msgstr "https://apicheck.nl/wordpress-contact-form-plugin/"
+
+#. Description of the plugin/theme
+msgid ""
+"Met onze adres Validatie API weet je 100% zeker dat je klanten het juiste "
+"adres invullen. Op basis van het geselecteerde land maken wij het de klant "
+"zo makkelijk mogelijk gemaakt om een adres in te voeren!"
+msgstr ""
+"With our address Validation API you can be 100% sure that your customers "
+"enter the correct address. Based on the selected country, we make it as easy "
+"as possible for the customer to enter an address!"
+
+#. Author of the plugin/theme
+msgid "ApiCheck"
+msgstr "ApiCheck"
+
+#. Author URI of the plugin/theme
+msgid "https://apicheck.nl/"
+msgstr "https://apicheck.nl/"
